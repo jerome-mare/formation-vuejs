@@ -14,6 +14,7 @@ module.exports = {
     'Velocity': true,
     'DEV': true,
     'PROD': true,
+    'APP': true,
     '__THEME': true
   },
   // https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style

@@ -1,6 +1,6 @@
 <template>
   <q-layout>
-    <div class="demo">
+    <div>
       <p>Operations</p>
     </div>
   </q-layout>
@@ -16,9 +16,6 @@ html, body
   height: 100%
   color: #303F48
 
-.demo
-  margin-top: 80px
-
 p
-  background-color: whitesmoke
+  background-color: rgb(117, 149, 196)
 </style>

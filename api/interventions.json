@@ -1,6 +1,0 @@
-{
-  "interventions": [
-    { "id": 1, "name": "intervention1", "description": "Elaguage d'un arbre" },
-    { "id": 2, "name": "intervention2", "description": "Plantage d'un nouveau arbre" }
-  ]
-}

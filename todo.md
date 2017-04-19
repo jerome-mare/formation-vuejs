@@ -1,3 +1,51 @@
-# Formation Git
-- Présentation formelle de l'outil
-- Réalisation du tutoriel
+Session 1:
+- Objectifs: Base de Git, Revue JS
+# Explication de Git par formateur (30min)
+  - Base de git : gestion de Configuration
+  - 1 Commit = Modifications + commit Parent
+  - 1 branche = 1 pointeur sur un commit qui se déplace
+  - 1 étiquette = 1 pointeur sur un commit qui ne se déplace pas
+  - Répertoire .git et working copie
+  - Les 3 zones de travail de Git :
+     - Git repository : .git
+     - Staging area : (modifications marquées) .git
+     - Working directory (working copie)
+# Tutoriel en autonomie : Gitimmersion (1h)
+  - http://gitimmersion.com/
+  - lab1 => lab23 (install Ruby, et idéalement ConEmu, Clink et Gow)
+# Revue JS/VueJS
+  - Récupération du code du tuto : ```git clone https://github.com/jerome-mare/formation-vuejs.git```
+    - Mise en place de l'environnement de développement
+    - .npmrc <- vers notre nexus interne
+    - ```npm i```
+    - ```npm run dev```, ```npm run unit```, ```npm run e2e```
+  - Tutoriel VueJS https://www.grafikart.fr/formations/vuejs (20min)
+    - Découverte
+  - Ecriture de la page "About" (30min)
+    - Affichage du numéro de version et du nom de l'Application
+    - Pourquoi le texte n'est pas sur fond gris après un clic sur "Interventions"
+    - Petit texte d'introduction traduit en trois langues
+      - window.localStorage.setItem('favoriteLanguage', 'fr') // Pour changer les locales
+    - Ecriture des tests Unitaires et e2e
+  - Tutoriel VueJS https://www.grafikart.fr/formations/vuejs (2h)
+    - L'instance
+    - Propriétés combinées & Watchers
+    - Les directives
+    - Les filtres
+    - Les composants
+  - Onglet de setting
+    - Permet de modifier les locales
+  - Ecriture du composants d'affichage des "interventions"
+    - Prise en main du mock du service REST
+      - Explication du comment ça marche
+      - Présentation de Postman
+      - Modification du service
+    - Qu'est-ce que les promesses ?
+      - Utilisation pour le client REST
+      - Démonstration sur la gestion du paramètrage
+    - Prise en main de Quasar
+      - Ou est la doc
+      - Comment utiliser un composant
+    - Ecriture du code
+      - Affichage de la liste des "interventions"
+      - Filtrage et recherche des interventions

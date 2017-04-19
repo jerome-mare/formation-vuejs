@@ -1,0 +1,14 @@
+{
+  "operations": [
+    {
+      "id": 1,
+      "name": "operation1",
+      "description": "Elaguage d'un arbre"
+    },
+    {
+      "id": 2,
+      "name": "operation2",
+      "description": "Plantage d'un nouveau arbre"
+    }
+  ]
+}

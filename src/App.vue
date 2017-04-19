@@ -22,8 +22,8 @@ export default {
   props: ['params'],
   data () {
     return {
-      appVersion: '0.0.1',
-      appName: 'eu-inter'
+      appVersion: APP.version,
+      appName: APP.name
     }
   },
   methods: {
@@ -59,4 +59,18 @@ export default {
   text-align: center
   color: #2c3e50
   margin-top: 60px
+
+body
+  padding: 0
+  margin: 0
+  overflow: hidden
+
+html, body
+  height: 100%
+  color: #303F48
+
+.layout-view
+  margin-top: 80px
+  margin-left: 10px
+  margin-right: 10px
 </style>

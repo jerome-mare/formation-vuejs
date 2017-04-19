@@ -14,6 +14,13 @@ var userParamsFiles =
     ((env.dev || env.test) && resolve('src/params')) ||
     (env.prod && resolve('src/params/params.user.yaml'))
 
+var packageJson = JSON.stringify(require('../package.json'))
+
+var appInfo = {
+  version: packageJson.version,
+  name: packageJson.name
+}
+
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
 }
@@ -87,6 +94,7 @@ module.exports = {
       'process.env': envDefinition,
       'DEV': env.dev,
       'PROD': env.prod,
+      'APP': appInfo,
       '__THEME': '"' + env.platform.theme + '"'
     }),
     new CopyWebpackPlugin([

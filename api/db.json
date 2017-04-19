@@ -3,12 +3,74 @@
     {
       "id": 1,
       "name": "operation1",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.753944396972655,
+          48.59034775056686
+        ]
+      },
       "description": "Elaguage d'un arbre"
     },
     {
       "id": 2,
       "name": "operation2",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.753944396972655,
+          48.59034775056686
+        ]
+      },
       "description": "Plantage d'un nouveau arbre"
+    },
+    {
+      "id": 3,
+      "name": "operation3",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.749309539794922,
+          48.57955997662351
+        ]
+      },
+      "description": "Traitement contre les fourmies"
+    },
+    {
+      "id": 4,
+      "name": "operation4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.748451232910156,
+          48.58739553603406
+        ]
+      },
+      "description": "Mesure de l'arbre"
+    },
+    {
+      "id": 5,
+      "name": "operation5",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.739181518554687,
+          48.58273977037357
+        ]
+      },
+      "description": "Elaguage"
+    },
+    {
+      "id": 6,
+      "name": "operation6",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.757549285888671,
+          48.585692256886624
+        ]
+      },
+      "description": "Traitement contre les termites"
     }
   ]
 }

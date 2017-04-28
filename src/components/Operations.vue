@@ -1,9 +1,7 @@
 <template>
-  <q-layout>
     <div>
       <p>Operations</p>
     </div>
-  </q-layout>
 </template>
 
 <style lang="stylus">

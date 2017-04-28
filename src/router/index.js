@@ -37,6 +37,7 @@ export default new VueRouter({
     { path: '/', component: load('About') }, // Default
     { path: '/about', component: load('About') },
     { path: '/operations', component: load('Operations') },
+    { path: '/map', component: load('Gmapv') },
     { path: '*', component: load('About') } // Not found
   ]
 })

@@ -4,6 +4,7 @@
       <q-tabs slot="navigation">
         <q-tab name="tab-about" icon="home" route="/about" exact replace>About</q-tab>
         <q-tab name="tab-operations" icon="work" route="/operations" replace>Interventions</q-tab>
+        <q-tab name="tab-map" icon="work" route="/map" replace>Map</q-tab>
       </q-tabs>
     </q-layout>
     <router-view class="layout-view"></router-view>
@@ -70,7 +71,5 @@ html, body
   color: #303F48
 
 .layout-view
-  margin-top: 80px
-  margin-left: 10px
-  margin-right: 10px
+  margin-top: 60px
 </style>
